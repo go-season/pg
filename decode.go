@@ -3,11 +3,10 @@ package pg
 import (
 	"database/sql"
 	"encoding/hex"
+	"github.com/go-season/pg/v3/pgutil"
 	"reflect"
 	"strconv"
 	"time"
-
-	"gopkg.in/pg.v3/pgutil"
 )
 
 func Decode(dst interface{}, b []byte) error {

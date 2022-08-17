@@ -3,10 +3,9 @@ package pg
 import (
 	"database/sql"
 	"database/sql/driver"
+	"github.com/go-season/pg/v3/pgutil"
 	"reflect"
 	"sync"
-
-	"gopkg.in/pg.v3/pgutil"
 )
 
 const (

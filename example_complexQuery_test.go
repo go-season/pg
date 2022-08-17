@@ -2,8 +2,7 @@ package pg_test
 
 import (
 	"fmt"
-
-	"gopkg.in/pg.v3"
+	"github.com/go-season/pg/v3"
 )
 
 type ArticleFilter struct {

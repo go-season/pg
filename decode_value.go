@@ -3,11 +3,10 @@ package pg
 import (
 	"database/sql"
 	"encoding/json"
+	"github.com/go-season/pg/v3/pgutil"
 	"reflect"
 	"strconv"
 	"time"
-
-	"gopkg.in/pg.v3/pgutil"
 )
 
 var (

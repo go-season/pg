@@ -2,15 +2,12 @@ package pg_test
 
 import (
 	"fmt"
+	"github.com/go-season/pg/v3"
 	"net"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
-
-	. "gopkg.in/check.v1"
-
-	"gopkg.in/pg.v3"
 )
 
 func TestCancelRequestOnTimeout(t *testing.T) {

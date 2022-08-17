@@ -4,8 +4,7 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"fmt"
-
-	"gopkg.in/pg.v3"
+	"github.com/go-season/pg/v3"
 )
 
 type jsonMap map[string]interface{}

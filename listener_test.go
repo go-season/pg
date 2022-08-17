@@ -1,12 +1,9 @@
 package pg_test
 
 import (
+	"github.com/go-season/pg/v3"
 	"net"
 	"time"
-
-	. "gopkg.in/check.v1"
-
-	"gopkg.in/pg.v3"
 )
 
 var _ = Suite(&ListenerTest{})

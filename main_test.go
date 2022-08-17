@@ -3,15 +3,13 @@ package pg_test
 import (
 	"bytes"
 	"database/sql/driver"
+	"github.com/go-season/pg/v3"
 	"strings"
 	"testing"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	. "gopkg.in/check.v1"
-
-	"gopkg.in/pg.v3"
 )
 
 func TestUnixSocket(t *testing.T) {

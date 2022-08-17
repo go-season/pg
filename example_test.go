@@ -3,10 +3,9 @@ package pg_test
 import (
 	"bytes"
 	"fmt"
+	"github.com/go-season/pg/v3"
 	"strings"
 	"time"
-
-	"gopkg.in/pg.v3"
 )
 
 var db *pg.DB

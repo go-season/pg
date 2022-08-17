@@ -10,8 +10,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq"
-
-	"gopkg.in/pg.v3"
 )
 
 func init() {

@@ -1,11 +1,8 @@
 package pg_test
 
 import (
+	"github.com/go-season/pg/v3"
 	"strings"
-
-	. "gopkg.in/check.v1"
-
-	"gopkg.in/pg.v3"
 )
 
 var _ = Suite(&TxTest{})

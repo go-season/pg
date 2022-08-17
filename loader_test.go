@@ -2,10 +2,7 @@ package pg_test
 
 import (
 	"errors"
-
-	. "gopkg.in/check.v1"
-
-	"gopkg.in/pg.v3"
+	"github.com/go-season/pg/v3"
 )
 
 type LoaderTest struct {

@@ -5,12 +5,11 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"fmt"
+	"github.com/go-season/pg/v3"
 	"math"
 	"reflect"
 	"testing"
 	"time"
-
-	"gopkg.in/pg.v3"
 )
 
 type JSONMap map[string]interface{}

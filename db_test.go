@@ -1,14 +1,10 @@
 package pg_test
 
 import (
+	"github.com/go-season/pg/v3"
 	"net"
 	"testing"
 	"time"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-
-	"gopkg.in/pg.v3"
 )
 
 func TestPG(t *testing.T) {

@@ -8,8 +8,6 @@ import (
 	"reflect"
 	"strconv"
 	"time"
-
-	"gopkg.in/pg.v3/pgutil"
 )
 
 func AppendQ(dst []byte, src string, params ...interface{}) ([]byte, error) {

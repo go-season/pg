@@ -1,9 +1,8 @@
 package pgutil_test
 
 import (
+	"github.com/go-season/pg/v3/pgutil"
 	"testing"
-
-	"gopkg.in/pg.v3/pgutil"
 )
 
 func BenchmarkParseTime(b *testing.B) {

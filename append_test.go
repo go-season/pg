@@ -1,10 +1,9 @@
 package pg_test
 
 import (
+	"github.com/go-season/pg/v3"
 	"math"
 	"testing"
-
-	"gopkg.in/pg.v3"
 )
 
 type structFormatter struct {
