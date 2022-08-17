@@ -4,6 +4,7 @@ import (
 	"database/sql/driver"
 	"encoding/hex"
 	"fmt"
+	"github.com/go-season/pg/v3/pgutil"
 	"log"
 	"reflect"
 	"strconv"
